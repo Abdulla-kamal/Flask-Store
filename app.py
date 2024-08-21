@@ -14,7 +14,7 @@ app.secret_key = "loginwithsessions"# Secret key for session management
 
 
 
-
+# Home Route
 @app.route('/')
 def home():
     if not session.get('logged_in') :
