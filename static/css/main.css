@@ -1,0 +1,112 @@
+body {
+  background-color: #ddd !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.text {
+  margin-top: 50px !important;
+}
+
+footer {
+  margin-top: 40vh;
+}
+
+::-webkit-scrollbar {
+  scroll-behavior: smooth;
+}
+.textwhite {
+  color: #000dff;
+}
+.textwhite:hover {
+  color: #ffffff;
+}
+
+.border-amag {
+  border: 1px #6c757d solid;
+}
+.border-amag:hover {
+  border-color: rgb(0, 0, 0);
+}
+.colerscshin {
+  background-color: #add8e6;
+}
+
+.fa-instagram {
+  background: linear-gradient(to right, #833ab4, #fd1dfd, #fcb045);
+}
+
+.text {
+  color: rgb(84, 84, 84);
+}
+
+@media (min-width: 991px) {
+  .text {
+    position: relative;
+    top: 80px;
+  }
+}
+
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #6a11cb;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to right,
+    rgba(106, 17, 203, 1),
+    rgba(37, 117, 252, 1)
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to right,
+    rgba(106, 17, 203, 1),
+    rgba(37, 117, 252, 1)
+  );
+}
+
+.none {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.clicked {
+  padding-left: 10px;
+  font-size: 30px;
+  transition: 0.3s;
+}
+
+.navbar-sm {
+  display: none;
+}
+
+.home_link {
+  font-size: 30px;
+}
+
+#sidebar ul {
+  padding-top: 120px
+}
+@media (max-width: 992px) {
+  .navbar-sm {
+    display: block;
+    margin-top: 98px;
+  }
+
+  .col-9 {
+    width: 100%;
+  }
+
+  .home_link {
+    margin: 0 0 40px 40px;
+    font-size: 25px;
+  }
+  #sidebar {
+    display: none;
+  }
+}
